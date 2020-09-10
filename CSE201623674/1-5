@@ -1,0 +1,19 @@
+import java.util.*;
+
+class Main {
+  public static void main(String[] args) {
+    double py;  // 평 면적 
+    double sqmt; // 제곱 미터 면적 
+    
+    // 코드를 작성하세요. 
+    Scanner in = new Scanner(System.in);
+		
+		System.out.print("면적 (평): ");
+		//py = Integer.parseInt(in.nextLine());
+    py = in.nextInt();
+		
+		sqmt = py * 3.305785;
+    
+    System.out.println(sqmt);
+  }
+}
