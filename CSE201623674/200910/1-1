@@ -3,4 +3,4 @@ class Main {
     System.out.println("This program has a few errors!");
     System.out.println("Fix the errors.");  
   }
-};
+}
