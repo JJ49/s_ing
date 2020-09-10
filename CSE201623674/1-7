@@ -1,0 +1,21 @@
+import java.util.*;
+import java.text.*;
+
+class Main {
+  public static void main(String[] args) {
+    final double PI = 3.14; // 원주율
+    double r; // 구의 반지름
+    double v; // 구의 부피
+    
+    // 코드를 작성하세요.
+    DecimalFormat fmt = new DecimalFormat("0.##");
+	    Scanner in = new Scanner(System.in);
+	    
+	    System.out.println("구의 반지름: ");
+	    r = in.nextInt();
+	    v = 4.0/3.0 * PI * r*r*r;
+	    
+	    System.out.println(fmt.format(v));
+
+  }
+}
