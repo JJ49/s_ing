@@ -16,6 +16,6 @@ class Main {
     average = (compgrade + proggrade + mathgrade) / 3.0;
       
     // 평균점수를 출력한다 
-    System.out.println(average);;
+    System.out.println(average);;l
   }
 }
