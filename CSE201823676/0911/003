@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main(void) {
+  int x, y;
+  float result;
+  
+  x = 85;
+  y = 8;
+  result = (float)x/y;
+  
+  printf("result : %f\n", result);
+  return 0;
+}
