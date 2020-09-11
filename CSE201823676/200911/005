@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main(void) {
+  float mile;
+  
+  printf("마일을 입력하세요 : ");
+  scanf("%f", &mile);
+  
+  printf("입력하신 %f mile은 %f km 입니다.\n", mile, mile*1.60934);
+  return 0;
+}
