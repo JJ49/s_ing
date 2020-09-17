@@ -7,18 +7,17 @@ class Main {
     
     // 코드를 작성하세요.
     String year, month, day, date, rest;
-		int index;
-		
-		date = scan.nextLine();
-		
-		index = date.indexOf("/");
-		year = date.substring(0, index);
-		rest = date.substring(index + 1);
-		
-		index = rest.indexOf("/");
-		month = rest.substring(0, index);
-		day = rest.substring(index + 1);
-		
-		System.out.println(month + "/" + day + "/" + year);
+    int index;
+    date = scan.nextLine();
+    
+    index = date.indexOf("/");
+    year = date.substring(0, index);
+    rest = date.substring(index + 1);
+    
+    index = rest.indexOf("/");
+    month = rest.substring(0, index);
+    day = rest.substring(index + 1);
+    
+    System.out.println(month + "/" + day + "/" + year);
   }
 }
