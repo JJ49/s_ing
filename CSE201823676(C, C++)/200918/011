@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(void) {
+  int x1, x2, y1, y2;
+	float dis;
+
+	printf("두 점을 입력하세요 x1, y1, x2, y2: ");
+	scanf("%d %d %d %d", &x1, &y1, &x2, &y2);
+	
+	dis = sqrt(pow((x2 - x1), 2) + pow((y2 - y1), 2));
+
+	
+	printf("두 점 사이의 거리: %f\n", dis);
+	
+  return 0;
