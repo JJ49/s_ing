@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main(void) {
+	int hour, min, sec;	// 시, 분, 초를 저장할 변수
+	double time = 3.76;	// 시간 초기화
+	
+  hour = (int)time;
+	double rest = time - hour;
+	rest *= 3600;
+	min = rest / 60;
+	sec = (int)rest % 60;
+
+	printf("%.2f시간은 %d시간 %d분 %d초 입니다.\n", time, hour, min, sec);
+  
+  return 0;
+}
